@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://Iryna-Vyshniak.github.io/responsive_images_gallery",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "start": "parcel src/*.html -p 1117 --open",
+    "build": "parcel build src/*.html --public-url /responsive_images_gallery/"
   },
   "repository": {
     "type": "git",
