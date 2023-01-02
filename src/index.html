@@ -4,58 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Images Gallery</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    /> -->
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
       <main class="page">
         <div class="slider swiper">
           <!-- photo -->
-          <div class="slider__wrapper swipper-wrapper">
+          <div class="slider__wrapper swiper-wrapper">
+            <!-- 1st slide -->
             <div class="slider__slide slide swiper-slide">
-              <ul class="slide__body">
-                <li class="slide__image">
+              <div class="slide__body">
+                <div class="slide__image">
                   <img
                     src="./images/brazilian-girl.jpg"
                     alt="brazilian girl"
                     class="slide__picture"
                     data-title="Photo by Omid Armin"
                   />
-                </li>
-                <li class="slide__image">
+                </div>
+              </div>
+            </div>
+            <!-- 2nd slide -->
+            <div class="slider__slide slide swiper-slide">
+              <div class="slide__body">
+                <div class="slide__image">
                   <img
                     src="./images/french-girl.jpg"
                     alt="french-girl"
                     class="slide__picture"
                     data-title="Photo by Ali Pazani"
                   />
-                </li>
-                <li class="slide__image">
+                </div>
+              </div>
+            </div>
+            <!-- 3rd slide -->
+            <div class="slider__slide slide swiper-slide">
+              <div class="slide__body">
+                <div class="slide__image">
                   <img
                     src="./images/angola-girl.jpg"
                     alt="angola girl"
                     class="slide__picture"
                     data-title="Photo by Prince Akachi"
                   />
-                </li>
-                <li class="slide__image">
+                </div>
+              </div>
+            </div>
+            <!-- 4th slide -->
+            <div class="slider__slide slide swiper-slide">
+              <div class="slide__body">
+                <div class="slide__image">
                   <img
                     src="./images/aziat-girl.jpg"
                     alt="aziat girl"
                     class="slide__picture"
                     data-title="Photo by Jimmy Fermin"
                   />
-                </li>
-                <li class="slide__image">
+                </div>
+              </div>
+            </div>
+            <!-- 5th slide -->
+            <div class="slider__slide slide swiper-slide">
+              <div class="slide__body">
+                <div class="slide__image">
                   <img
                     src="./images/african-girl.jpg"
                     alt="african girl"
                     class="slide__picture"
                     data-title="Photo by Prince Akachi"
                   />
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
           <!-- slider scrollbar -->
@@ -63,5 +87,7 @@
         </div>
       </main>
     </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
