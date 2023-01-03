@@ -183,3 +183,15 @@ body {
     text-transform: uppercase;
     font-size: 4vh;
 }
+
+@media (max-aspect-ratio: 3/2) {
+    .text__slide span {
+        font-size: 4vw;
+    }
+}
+
+@media (min-width:991.98px) {
+    .text__slide span {
+        max-width: 48vw;
+    }
+}
